@@ -146,11 +146,15 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    themes: [
+      [
+        require.resolve('@easyops-cn/docusaurus-search-local'),
+        {
+          hashed: true, // Enable long-term caching of index file
+        },
+      ],
+    ],    
 };
 
-export default config;
 
-module.exports = {
-  // ...
-    plugins: [require.resolve('docusaurus-lunr-search')],
-}
+export default config;
