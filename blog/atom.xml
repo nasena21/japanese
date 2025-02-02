@@ -13,8 +13,9 @@
         <link href="https://github.com/japanese/blog/greetings"/>
         <updated>2025-02-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Congratulations, you have made your first post!]]></summary>
-        <content type="html"><![CDATA[<p>Congratulations, you have made your first post!</p>
-<p>Feel free to play around and edit this post as much as you like.</p>]]></content>
+        <content type="html"><![CDATA[<p>Congratulations, you have made your first post!
+Ini Post Pertamaku
+Feel free to play around and edit this post as much as you like.</p>]]></content>
         <author>
             <name>Joel Marcey</name>
             <uri>https://github.com/JoelMarcey</uri>
