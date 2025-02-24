@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Na Sena',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Dinosaurs keren',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -82,19 +82,33 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          /*
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
           },
+          */
+          {
+            type: 'docSidebar',
+            sidebarId: 'setupSidebar',
+            position: 'left',
+            label: 'Main Guide',
+           },         
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/nasena21/japanese',
             label: 'GitHub',
             position: 'right',
-          },
-        ],
+          },     
+          {
+            type: 'docSidebar',
+            sidebarId: 'grammarSidebar',
+            position: 'left',
+            label: 'Grammar',
+           },
+        ],      
       },
       footer: {
         style: 'dark',

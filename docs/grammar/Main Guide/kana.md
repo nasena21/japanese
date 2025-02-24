@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
+sidebar_label: 'Kana'
 ---
 
-# Create a Document
+# Hiragana dan Katakana
 
 Documents are **groups of pages** connected through:
 
