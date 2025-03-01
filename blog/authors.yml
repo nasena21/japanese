@@ -21,3 +21,15 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+nasena:
+  name: Na Sena
+  title: Japanese Learner
+  url: https://nasena21.github.io/japanese/
+  image_url: '/img/pg.png'
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-na-sena-articles'
+  socials:
+    tiktok: https://www.tiktok.com/@nasena_21
+    instagram: https://www.instagram.com/nasena_21/

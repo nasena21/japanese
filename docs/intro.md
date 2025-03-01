@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
-sidebar_label: 'Introduction'
+sidebar_label: 'Intro Grammar tes tos'
+sidebar: grammarSidebar
 ---
 
 # Tutorial Intro
@@ -46,3 +47,8 @@ The `cd` command changes the directory you're working with. In order to work wit
 The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
 Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+
+kode undraw #3aa2ff
+
+## Update Web ke Github
+$env:GIT_USER="nasena21"; yarn deploy
