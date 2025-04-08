@@ -4,12 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Learn Naturally',
     Svg: require('@site/static/img/undraw_vintage_q09n.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Immerse yourself in real Japanese content—just like how you learned your first language. No dry textbooks, just real-world exposure.
       </>
     ),
   },
@@ -18,18 +17,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_time-management_fedt.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Skip the slow grind on unnecessary details. With immersion, you focus on understanding and using Japanese in real situations.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Fun & Engaging',
     Svg: require('@site/static/img/undraw_video-games_itxa.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Learn through what you love—whether it’s games, anime, or novels. Japanese study doesn’t have to be boring!
       </>
     ),
   },

@@ -5,8 +5,11 @@ sidebar_label: 'Kana'
 
 # Hiragana dan Katakana
 Bahasa Jepang Memiliki tiga jenis huruf: Hiragana, Katakana, dan Kanji. 
-
 Langkah pertama dalam mempelajari bahasa Jepang adalah menguasai (membaca dan menulis) Hiragana dan Katakana terlebih dahulu. 
+
+
+![kana](/img/hiragana-katakana.jpg)
+
 
 ## Hiragana 
 
@@ -41,7 +44,7 @@ Ada 20 huruf tambahan.
 |---------|----|----|----|----|
 | が (ga) | ぎ (gi) | ぐ (gu) | げ (ge) | ご (go) |
 | ざ (za) | じ (ji) | ず (zu) | ぜ (ze) | ぞ (zo) |
-| だ (da) | ぢ (ji) | づ (zu) | で (de) | ど (do) |
+| だ (da) | ぢ (ji) | づ (dzu) | で (de) | ど (do) |
 | ば (ba) | び (bi) | ぶ (bu) | べ (be) | ぼ (bo) |
 
 ### Handakuon (゜)
@@ -60,7 +63,7 @@ Youon adalah kombinasi huruf kecil ゃ (ya), ゅ (yu), よ (yo) dengan baris k, 
 
 Terdapat 36 kombinasi.
 
-| ya | ya  | yu  |
+| YA | YU  | YO  |
 |------------|----|----|
 | きゃ (kya) | きゅ (kyu) | きょ (kyo) |
 | しゃ (sha) | しゅ (shu) | しょ (sho) |
@@ -118,7 +121,7 @@ Ada 20 huruf tambahan.
 |---------|----|----|----|----|
 | ガ (Ga) | ギ (Gi) | グ (Gu) | ゲ (Ge) | ゴ (Go) |
 | ザ (Za) | ジ (Ji) | ズ (Zu) | ゼ (Ze) | ゾ (Zo) |
-| ダ (Da) | ヂ (Ji) | ヅ (Zu) | デ (De) | ド (Do) |
+| ダ (Da) | ヂ (Ji) | ヅ (Dzu) | デ (De) | ド (Do) |
 | バ (Ba) | ビ (Bi) | ブ (Bu) | ベ (Be) | ボ (Bo) |
 
 ###  Handakuon (゜)
@@ -165,8 +168,19 @@ Total = 46+20+5+36 = 107
 [Download PDF](https://www.nhk.or.jp/lesson/id/pdf/textbook_kana_all.pdf#page=2)
 
 ## Latihan 
+
+Ada dua skill yang bisa didapatkan ketika mempelajari hiragana dan katakana.
+1. Recognition - Mengenali huruf hiragana/katakana dan bisa membaca ketika melihatnya.
+2. Production - Dapat menulis huruf hiragana/katakana tanpa mencontek.
+
+Untuk skill production, tidak ada cara lain selain dengan latihan menulis hiragana dan katakana menggunakan tangan.
+
+Sementara untuk skill recognition, kalian bisa melatihnya menggunakan beberapa website di bawah ini.
+
 [Kana Chan](https://kana-chan.com/)
 
 [Kana Pro](https://kana.pro/)
 
 [Kuuuube](https://kuuuube.github.io/kana-quiz/kana/kana-dark/index.html)
+
+[Kana Game](https://vedxyz.github.io/kana/)

@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Na Sena',
-  tagline: 'Dinosaurs keren',
+  tagline: 'How To Learn Japanese',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -104,6 +104,12 @@ const config = {
             position: 'left',
             label: 'Grammar',
            },
+           {
+            type: 'docSidebar',
+            sidebarId: 'mahjongSidebar',
+            position: 'left',
+            label: 'Mahjong',
+           },           
         ],      
       },
       footer: {

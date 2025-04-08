@@ -24,3 +24,116 @@
   --ifm-color-primary-lighter: #55c7ff;
   --ifm-color-primary-lightest: #82d5ff;
 }
+
+[data-theme='light'] img[src$='#gh-dark-mode-only'],
+[data-theme='dark'] img[src$='#gh-light-mode-only'] {
+  display: none;
+}
+
+/* styles.css */
+.custom-text {
+  display: inline-block;
+  line-height: 1.6;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: auto;
+  max-width: 600px;
+  padding: 16px 20px;
+  margin: 10px 0;
+  background: linear-gradient(145deg, #1e1e1e, #252525);
+  border-radius: 0px; /* No rounded corners */
+  color: #e0e0e0;
+  font-family: 'UD Digi Kyokasho N-R', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: left;
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth movement */
+}
+
+/* Chat bubble tail */
+.custom-text::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #252525 transparent transparent transparent;
+  filter: blur(1px);
+  z-index: -1;
+}
+
+/* Hover effect: Moves slightly to the right instead of jumping up */
+.custom-text {
+  display: inline-block;
+  line-height: 1.6;
+  border: 1px solid rgba(0, 0, 0, 0.5); /* Darker border to remove white effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: auto;
+  max-width: 600px;
+  padding: 16px 20px;
+  margin: 10px 0;
+  background: linear-gradient(145deg, #1e1e1e, #252525);
+  border-radius: 6px; /* Slightly rounded corners */
+  color: #e0e0e0;
+  font-family: 'UD Digi Kyokasho N-R', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: left;
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Chat bubble tail */
+.custom-text::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #252525 transparent transparent transparent;
+  filter: blur(1px);
+  z-index: -1;
+}
+
+/* Hover effect: Moves slightly to the right and increases brightness */
+.custom-text:hover {
+  animation: ultra-smooth-shadow 2s infinite ease-in-out;
+  transform: translateX(5px); /* Moves slightly to the right */
+  filter: brightness(1.5); /* Slightly increases brightness */
+  cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
+.custom-kanji {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 3em;
+}
+
+
+img[alt="minipic"] { 
+  max-width: 80px; 
+  display: inline;
+  vertical-align: middle; /* Aligns with text properly */
+}
+
+img[alt="middlepic"] { 
+  max-height: 90px; 
+  width: auto;
+  display: inline;
+  vertical-align: middle; /* Aligns with text properly */
+}
+
+img[alt="fivetiles"] { 
+  max-height: 90px; 
+  width: auto;
+  display: inline;
+  vertical-align: middle; /* Aligns with text properly */
+}
